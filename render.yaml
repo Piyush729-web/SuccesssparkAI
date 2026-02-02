@@ -3,7 +3,7 @@ services:
   - type: web
     name: successspark-backend
     env: node
-    root: backend
+    rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
     plan: free # Optional: explicitly set free plan if desired
